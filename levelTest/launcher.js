@@ -16,8 +16,8 @@ function preload(){
     gamePreload()
     Icons.Notifiy={}
     testLevel=loadJSON("testLevel.json")
-    Icons.Notifiy.Alert=loadImage("https://github.com/bad-productions/CircusMayhemFiles/blob/main/levelTest/Notifiy.png?raw=true")
-    Icons.Notifiy.Trophy=loadImage("https://github.com/bad-productions/CircusMayhemFiles/blob/main/levelTest/achivement.png?raw=true")
+    Icons.Notifiy.Alert=loadImage("Notifiy.png")
+    Icons.Notifiy.Trophy=loadImage("achivement.png")
 }
 function windowResized() {
   resizeCanvas(windowWidth-16, windowHeight-16);
