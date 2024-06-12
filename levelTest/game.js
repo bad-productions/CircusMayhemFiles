@@ -23,9 +23,9 @@ let textureSelect;
 let Funcs=["Air","Solid","Hit","End"]
 function gamePreload(){
     textures.Air=createImage(1,1)
-    textures.Crate=loadImage("https://github.com/bad-productions/CircusMayhemFiles/blob/main/levelTest/Crate.png?raw=true")
-    textures.Spike=loadImage("https://github.com/bad-productions/CircusMayhemFiles/blob/main/levelTest/spike.gif?raw=true")
-    textures.ShinyCrate=loadImage("https://github.com/bad-productions/CircusMayhemFiles/blob/main/levelTest/ShinyCrate.gif?raw=true")
+    textures.Crate=loadImage("Crate.png")
+    textures.Spike=loadImage("spike.gif")
+    textures.ShinyCrate=loadImage("ShinyCrate.gif")
     
 }
 function gameSetup(playerCount) {
