@@ -15,7 +15,6 @@ function setup(){
 function preload(){
     gamePreload()
     Icons.Notifiy={}
-    testDude=loadImage("mage.png")
     testLevel=loadJSON("testLevel.json")
     Icons.Notifiy.Alert=loadImage("Notifiy.png")
     Icons.Notifiy.Trophy=loadImage("achivement.png")
